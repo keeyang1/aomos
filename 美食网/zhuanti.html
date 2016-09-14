@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script src="http://apps.bdimg.com/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--top-->
+<div class="scroll"></div> 
+<div class="logo-search">
+    <div class="logo"><a href="#" target="_blank" title="美食网">美食网</a></div>
+    <div class="search">
+        <div class="search-main">
+            <div class="search-cat" id="search-cat"><a id="food-search-tab" href="javascript:changeTabStatus('food');" rel="nofollow" class="current">食物</a><a id="recipe-search-tab" href="javascript:changeTabStatus('recipe');" rel="nofollow" class="">食谱</a></div>
+            <div class="search-area">
+                <label class="search-icon" for="search-input"></label>
+                <div class="from">
+                    <input class="input" id="search-input" value="请输入食谱/食材名称" onfocus="if(this.value=='请输入食谱/食材名称'){this.value=''}" onblur="if(this.value==''){this.value='请输入食谱/食材名称'}">
+                    <input type="button" class="button" onclick="search_product()" value="搜索">
+                </div>
+            </div>
+        </div>
+        <div class="search-hot">
+            <a href="#" target="_blank">蛋黄果</a>
+            <a href="#" target="_blank">青芒果</a>
+            <a href="#" target="_blank">芒种养生</a>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <ul class="menu-inner">
+        <li class="cur"><a href="#" target="_blank">首页</a></li>
+        <li><a href="#" target="_blank">食谱大全</a></li>
+        <li><a href="#" target="_blank">食物大全</a></li>
+        <li><a href="#" target="_blank">美食专题</a></li>
+        <li><a href="#" target="_blank">美食分类</a></li>
+        <li><a href="#" target="_blank">减肥饮食</a></li>
+        <li><a href="#" target="_blank">健康饮食</a></li>
+        <li><a href="#" target="_blank">健康美体杂志</a></li>
+    </ul>
+</div>
+<!--top-->  
+  
+  <!--dangqian-->
+  <div class="ms_dq">
+   <div class="address top15">您现在的的位置：<a href="#">首页</a><span>></span>食谱大全</div>
+  </div>
+  <!--end_dangqian-->
+  
+  <!--con1-->
+  <div class="ms_con_tit">
+   <p><span class="ms_tit_s1">当季食材</span> <span class="ms_tit_s2">SEASONAL INGREDIENTS</span></p>
+  </div>
+  <div id="ms_con1">
+  <div class="banner list" id="ms_banner">
+        <a href="#" target="_blank" class="cell" style="width:500px;height:500px;left:0px;top:0px;">
+        <h3>美食美食美食</h3><img src="images/ms_pic1.jpg" width="500" height="500" /></a> 
+         
+        <a href="#" target="_blank" class="cell" style="width:250px;height:249px;left:501px;top:0px;">
+        <div class="msg">  
+        <h3>美食美食美食</h3><p>舌尖里"中国梦"是美食背后中国人对幸福圆满的追求</p></div>
+       <img src="images/ms_pic2.jpg" width="250" height="249" /></a>    
+       
+        <a href="#" target="_blank" class="cell" style="width:250px;height:250px;left:501px;top:250px;">
+        <h3>美食美食美食</h3><img src="images/ms_pic2.jpg" width="250" height="250" /></a>
+        
+        <a href="#" target="_blank" class="cell" style="width:250px;height:249px;left:752px;top:0px;">
+        <h3>美食美食美食</h3><img src="images/ms_pic2.jpg" width="250" height="249" />
+        
+        </a><a href="#" target="_blank" class="cell" style="width:250px;height:250px;left:752px;top:250px;"> 
+        <div class="msg"><h3>美食美食美食</h3><p>戛纳第6日《归来》首映 巩俐、张慧雯同台比美</p></div><img src="images/ms_pic2.jpg" width="250" height="250" /></a>
+    </div>
+  </div>
+ <!--end_con1-->
+  <!--con2-->
+  <div class="ms_con_tit">
+   <p><span class="ms_tit_s1">当季食材</span> <span class="ms_tit_s2">SEASONAL INGREDIENTS</span></p>
+  </div>
+  <div class="ms_con2">
+   <div class="ms_con2_z">
+     
+     <ul class="con2_z_u1">
+	  <li><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>  
+	  <li class="con2_z_li2"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1 con2_z_li2"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1 con2_z_li2"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	 </ul>
+	 
+   </div>
+   <div class="ms_con2_y">
+     <div class="con2_y_nav">
+	  <div class="ms_ph_h"><p>热门排行</p></div>
+	  <div class="ms_ph_c"><p>点击排行</p></div>
+	 </div>
+	 <div class="con2_y_d1">
+	   <ul>
+	     <li>
+		   <a class="con2_y_a1 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a2 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a3 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a4 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a5 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+	   </ul>
+	 </div>
+	 <div class="con2_y_d2">
+	  <ul>
+	   <li>
+		   <a class="con2_y_a1 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a2 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a3 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a4 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a5 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+	   </ul>
+	 </div>
+   </div>
+  </div>
+  <!--end_con2-->
+  <!--con3-->
+  <div class="ms_con_tit">
+   <p><span class="ms_tit_s1">当季食材</span> <span class="ms_tit_s2">SEASONAL INGREDIENTS</span></p>
+  </div>
+  <div class="ms_con2">
+   <div class="ms_con2_z">
+     
+     <ul class="con2_z_u1">
+	  <li><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>  
+	  <li class="con2_z_li2"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1 con2_z_li2"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	  <li class="con2_z_li1 con2_z_li2"><a href="#" target="_blank"><img src="images/ms_pic2.jpg" width="220" height="220" /><div class="con2_z_bc"><p>啊啊啊啊啊啊啊</p></div></a></li>
+	 </ul>
+	 
+   </div>
+   <div class="ms_con2_y">
+     <div class="con2_y_nav">
+	  <div class="ms_ph_h1"><p>热门排行</p></div>
+	  <div class="ms_ph_c1"><p>点击排行</p></div>
+	 </div>
+	 <div class="con2_y_d3">
+	   <ul>
+	     <li>
+		   <a class="con2_y_a1 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a2 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a3 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a4 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a5 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【天天美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+	   </ul>
+	 </div>
+	 <div class="con2_y_d4">
+	  <ul>
+	   <li>
+		   <a class="con2_y_a1 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a2 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a3 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a4 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+		 <li>
+		   <a class="con2_y_a5 con2_y_a" href="#" target="_blank">
+		     <p class="con2_y_p1">【每日美食】coco私房汤之三丝浮丝浮</p>
+			 <p class="con2_y_p2">cocochancoco</p>
+		   </a>
+		 </li>
+	   </ul>
+	 </div>
+   </div>
+  </div>
+  <!--end_con3-->
+  
+<div class="clear"></div>
+<div class="footwarp top10">
+   <div class="foot">版权所有：Copyright © 2015 美食库 All Rights Reserved</div>
+</div>
+<script src="js/backtop.js" type="text/javascript"></script>
+</body>
+</html>
