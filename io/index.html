@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">                             
+		<title>fashion</title>
+		<style type="text/css">
+			body,ul,p,h1,h2,h3,h4,dl,dd {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+	vertical-align: top;	
+}
+.header {
+	/*border: 1px solid black;*/
+	width: 100%;
+	padding: 0 67px;
+	z-index: 10;
+	height: 116px;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+	background: transparent;
+}
+.header a{
+	float:left;
+	margin-top: 65px;
+	width: 95px;
+	font: 38px/38px 'Vaud Display', Helvetica, sans-serif;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+#list {
+	float: right;
+	margin-top: 68px;
+	padding: 12px;
+	cursor: pointer;
+	color: #000;
+}
+#list span {
+	width: 30px;
+	display: block;
+	height: 3px;
+	background: #fff;
+}
+#list span:nth-of-type(1) {
+	margin-bottom: 5px;
+}
+#list span:nth-of-type(2) {
+	margin-bottom: 5px;
+}
+#navList {
+	width: 30px;
+	height: 124px;
+	position: fixed;
+	right: 75px;
+	top: 50%;
+	margin-top: -52px;
+	z-index: 99;
+}
+#navList li {
+	cursor: pointer;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	margin: 10px;
+	opacity: .9;
+	transition: .4s;
+}
+#navList li:nth-of-type(1) {
+	background: #fff;
+}
+#wrap .div1 {
+	background: #00a7e7;
+	overflow: hidden;
+}
+#wrap .div2 {
+	background: linear-gradient(to bottom, #1e242a 50%, #293039 100%);
+	overflow: hidden;
+}
+#wrap .div3 {
+	background: #F7F8FA;
+	overflow: hidden;
+}
+#wrap .div4 {
+	background: #00a7e7;
+	overflow: hidden;
+}
+#wrap .div5 {
+	background: #c42846;
+	overflow: hidden;
+}
+body,html {
+	overflow: hidden;
+}
+#wrap {
+	position: relative;
+    left: 0;
+    top: 0;
+    transition: .4s;
+}
+.content {
+	padding: 0 50px;
+	box-sizing: border-box;
+	z-index: 9;
+	max-width: 800px;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position: absolute;
+	text-align: center;
+}
+#content1 {
+	height: 65%;
+	
+}
+.div1.move #cont {
+	z-index: 10;
+	width: 80%;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position: absolute;
+	text-align: center;
+	height: 79%;
+	animation: move3 .6s 1s ease-out;
+}
+
+.div1.move h1 {
+	color: #FFF;
+    font:bold 130px/140px 'Vaud Display', Helvetica, sans-serif;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    animation: move4  1s 1.4s linear both;
+}
+.div1.move h2 {
+	font: 18px/34px 'Vaud Display', Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 0 auto; 
+    color: #fff;
+    margin-bottom: 25px;
+    opacity: 0;
+    transform: rotateY(70px);
+    animation: move1 1s 1.5s ease-out both;
+}
+.div1.move img {
+	width: 168px;
+	height: 50px;
+	opacity: 0;
+	transform: rotateY(120px);
+	animation: move2 .8s 1.5s ease-out both;
+}
+@keyframes move1{
+	0%{
+		transform: translateY(70px);
+		opacity: 0;
+	}
+	50%{
+		transform: translateY(40px);
+		transform: translateY(0px);
+		opacity: .4;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+@keyframes move2{
+	0%{
+		transform: translateY(120px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+@keyframes move3{
+	0%{
+		border: 120px solid white;
+		transform: scale(.6);
+
+	}
+	100%{
+		border: 0px solid white;
+		transform: scale(1);
+	}
+}
+@keyframes move4{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+#content2 {
+    top: 18%;
+    z-index: 20;
+}
+#content2 h3{
+	color: #d1f2fd;
+	font: 48px/63px 'Vaud Display', Helvetica, sans-serif;
+}
+#content2 h4 {
+	color: #fff;
+	font: 400 14px/30px 'Vaud Display', Helvetica, sans-serif;
+}
+.star {
+	position: absolute;
+    bottom: 230px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    z-index: 0;
+}
+.star span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	background: white;
+}
+.div2 #buildings {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: -215px;
+}
+#iphoneB {
+ 	position: absolute;
+    bottom: -525px;
+    left: 50%;
+    margin-left: -135px;
+    z-index: 10;
+}
+#iphoneB #iphoneBlue {
+	width: 250px;
+}
+#call {
+	z-index: 10;
+    overflow: hidden;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    background: #292929;
+    margin-left: -350px;
+    margin-bottom: -180px;
+    text-align: center;
+    color: #fff;
+}
+#call .call-content {
+	width: 400px;
+	height: 208px;
+	padding: 76px 150px;
+	background: #292929;
+}
+#call h3 {
+	width: 300px;
+	font: bold 24px/30px 'Vaud Display', Helvetica, sans-serif;
+	margin: 0 auto 10px;
+}
+#call h4 {
+	width: 400px;
+	margin: 0 auto;
+	font:14px/30px 'Vaud Display', Helvetica, sans-serif;
+}
+#content4 {
+	padding: 0 50px;
+	box-sizing: border-box;
+	z-index: 40;
+	max-width: 800px;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position: absolute;
+	text-align: center;
+	top: 15%;
+	color: #fff;
+}
+#content4 h3 {
+	font: bold 46px/63px 'Vaud Display', Helvetica, sans-serif;
+	margin-bottom: 10px;
+}
+#content4 h4 {
+	font:14px/30px 'Vaud Display', Helvetica, sans-serif; 
+}
+.div4 #land {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #e6eaef;
+    z-index: 1;
+}
+.div4 #build4 {
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	bottom: -150px;
+}
+#iphoneR {
+ 	position: absolute;
+    bottom: -120px;
+    left: 50%;
+    margin-left: -155px;
+    z-index: 4;
+}
+#iphoneR #iphoneRed {
+	width: 312px;
+}
+.content5 {
+	padding: 0 50px;
+	box-sizing: border-box;
+	z-index: 9;
+	max-width: 800px;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position: absolute;
+	text-align: center;
+	top: 15%;
+	color: #fff;
+}
+.content5 h3 {
+	    font: 48px/63px 'Vaud Display', Helvetica, sans-serif;
+	    margin-bottom: 10px;
+}
+.content5 h4 {
+	    font: 14px/30px 'Vaud Display', Helvetica, sans-serif;
+}
+.div4 #zhezhao1 {
+	width: 50px;
+	height: 0;
+	background: #e6eaef;
+	position: absolute;
+	left: 285px;
+	bottom: 0;
+	z-index: 6;
+}
+.div4 #zhezhao2 {
+	width: 28px;
+	height: 0;
+	background: #e6eaef;
+	position: absolute;
+	left: 333px;
+	bottom: 0;
+	z-index: 4;
+}
+.div4 #zhezhao3 {
+	width: 70px;
+	height: 0;
+	background: #e6eaef;
+	position: absolute;
+	left: 382px;
+	bottom: 0;
+	z-index: 4;
+}
+.div4 #zhezhao4 {
+	width: 55px;
+	height: 0;
+	background: #e6eaef;
+	position: absolute;
+	right: 297px;
+	bottom: 0;
+	z-index: 4;
+}
+.div4 #zhezhao5 {
+	width: 66px;
+	height: 0;
+	background: #e6eaef;
+	position: absolute;
+	right: 217px;
+	bottom: 0;
+	z-index: 4;
+}
+#tree1 {
+        width: 0px;
+        height: 0px;
+        border-left: 24px solid transparent;
+        border-right: 24px solid transparent;
+        border-bottom: 80px solid #5fb36b;
+        position: absolute;
+        left: 285px;
+        bottom: 40px;
+        z-index: 5;
+}
+#tree2 {
+        width: 0px;
+        height: 0px;
+        border-left: 24px solid transparent;
+        border-right: 24px solid #6fca7a;
+        border-top: 80px solid transparent;
+        margin-left: -48px;
+}
+#tree3 {
+        width: 0px;
+        height: 0px;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 40px solid #5fb36b;
+        position: absolute;
+        left: 335px;
+        bottom: 60px;
+        z-index: 3;
+}
+#tree4 {
+        width: 0px;
+        height: 0px;
+        border-left: 12px solid transparent;
+        border-right: 12px solid #6fca7a;
+        border-top: 40px solid transparent;
+        margin-left: -24px;
+}
+#tree5 {
+        width: 0px;
+        height: 0px;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 125px solid #5fb36b;
+        position: absolute;
+        left: 384px;
+        bottom: 26px;
+        z-index: 3;
+}
+#tree6 {
+        width: 0px;
+        height: 0px;
+        border-left: 40px solid transparent;
+        border-right: 40px solid #6fca7a;
+        border-top: 125px solid transparent;
+        margin-left: -80px;
+}
+#tree7 {
+        width: 0px;
+        height: 0px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 90px solid #5fb36b;
+        position: absolute;
+        right: 300px;
+        bottom: 60px;
+        z-index: 3;
+}
+#tree8 {
+        width: 0px;
+        height: 0px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid #6fca7a;
+        border-top: 90px solid transparent;
+        margin-left: -50px;
+}
+#tree9 {
+        width: 0px;
+        height: 0px;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 110px solid #5fb36b;
+        position: absolute;
+        right: 220px;
+        bottom: 50px;
+        z-index: 3;
+}
+#tree10 {
+        width: 0px;
+        height: 0px;
+        border-left: 30px solid transparent;
+        border-right: 30px solid #6fca7a;
+        border-top: 110px solid transparent;
+        margin-left: -61px;
+}
+#car {
+	width: 146px;
+	height: 68px;
+	background: url(../imgs/sprite.png) no-repeat -142px 0;
+	position: absolute;
+	right: 535px;
+	bottom: 40px;
+	z-index: 4;
+	opacity: 0;
+}
+.div5 #caodi {
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	bottom: -60px; 
+	z-index: 4;
+}
+.div5 #buildCloud {
+	position: absolute;
+	left: 50%;
+	bottom: -200px;
+	margin-left: -500px;
+}
+#tree5-1 {
+        width: 0px;
+        height: 0px;
+        border-left: 18px solid transparent;
+        border-right: 18px solid transparent;
+        border-bottom: 55px solid #5fb36b;
+        position: absolute;
+        left: 306px;
+        bottom: -55px;
+        z-index: 3;
+}
+#tree5-2 {
+        width: 0px;
+        height: 0px;
+        border-left: 18px solid transparent;
+        border-right: 18px solid #6fca7a;
+        border-top: 55px solid transparent;
+        margin-left: -36px;
+}
+#tree5-3 {
+        width: 0px;
+        height: 0px;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 40px solid #5fb36b;
+        position: absolute;
+        left: 338px;
+        bottom: -40px;
+        z-index: 3;
+}
+#tree5-4 {
+        width: 0px;
+        height: 0px;
+        border-left: 12px solid transparent;
+        border-right: 12px solid #6fca7a;
+        border-top: 40px solid transparent;
+        margin-left: -24px;
+}
+#tree5-5 {
+        width: 0px;
+        height: 0px;
+        border-left: 26px solid transparent;
+        border-right: 26px solid transparent;
+        border-bottom: 80px solid #5fb36b;
+        position: absolute;
+        left: 370px;
+        bottom: -80px;
+        z-index: 3;
+}
+#tree5-6 {
+        width: 0px;
+        height: 0px;
+        border-left: 26px solid transparent;
+        border-right: 26px solid #6fca7a;
+        border-top: 80px solid transparent;
+        margin-left: -52px;
+}
+#tree5-7 {
+        width: 0px;
+        height: 0px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 90px solid #5fb36b;
+        position: absolute;
+        right: 290px;
+        bottom: -90px;
+        z-index: 3;
+}
+#tree5-8 {
+        width: 0px;
+        height: 0px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid #6fca7a;
+        border-top: 90px solid transparent;
+        margin-left: -50px;
+}
+#tree5-9 {
+        width: 0px;
+        height: 0px;
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+        border-bottom: 70px solid #5fb36b;
+        position: absolute;
+        right: 238px;
+        bottom: -70px;
+        z-index: 3;
+}
+#tree5-10 {
+        width: 0px;
+        height: 0px;
+        border-left: 22px solid transparent;
+        border-right: 22px solid #6fca7a;
+        border-top: 70px solid transparent;
+        margin-left: -44px;
+}
+#house {
+	width: 114px;
+	height: 92px;
+    background: url(../imgs/sprite.png) no-repeat 0 0;
+	position: absolute;
+	right: 360px;
+	bottom: -92px;
+}
+#pork {
+	width: 25px;
+	height: 65px;
+	background: url(../imgs/sprite.png) no-repeat -116px 0;
+	position: absolute;
+	right: 480px;
+	bottom: -65px;
+	z-index: 4;
+}
+#letter {
+	position: absolute;
+    bottom: -536px;
+    left: 50%;
+    width: 520px;
+    height: 353px;
+    margin-left: -260px;
+    z-index: 10;
+    
+}
+
+/*                    第4页云朵样式                                     */
+
+#cloud1 {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 650px;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    opacity: 0;
+    animation: cloueMove1 30s 1s infinite linear;
+}
+.cloud1-1 {
+    width: 0;
+    height: 0;
+    border:20px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    left:0;
+    bottom: -20px;
+}
+.cloud1-2 {
+    width: 0;
+    height: 0;
+    border:40px solid white;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+    position:absolute;
+    left: 20px;
+    bottom: -40px;
+    z-index: 2;
+}
+.cloud1-3 {
+    width: 0;
+    height: 0;
+    border:20px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    right:0;
+    bottom: -20px;
+}
+#cloud2 {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 90px;
+    top: -20px;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    animation: cloueMove2 24s 1s infinite linear;
+    opacity: 0;
+}
+.cloud2-1 {
+    width: 0;
+    height: 0;
+    border:32px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    right:0;
+    bottom: -32px;
+}
+.cloud2-2 {
+    width: 0;
+    height: 0;
+    border:20px solid white;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+    position:absolute;
+    left: 14px;
+    bottom: -20px;
+    z-index: 2;
+}
+.cloud2-3 {
+    width: 0;
+    height: 0;
+    border:12px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+}
+
+
+#cloud3 {
+    position: absolute;
+    width: 110px;
+    height: 36px;
+    left: 260px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    animation: cloueMove3 30s 1s infinite linear;
+    opacity: 0;
+}
+.cloud3-1 {
+    width: 0;
+    height: 0;
+    border:18px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    right:0;
+    bottom: -18px;
+}
+.cloud3-2 {
+    width: 0;
+    height: 0;
+    border:36px solid white;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+    position:absolute;
+    left: 12px;
+    bottom: -36px;
+    z-index: 2;
+}
+.cloud3-3 {
+    width: 0;
+    height: 0;
+    border:10px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+@keyframes cloueMove1{
+	0%{
+		left: 650px;
+		opacity: 0;
+	}
+	10%{
+		left: 698px;
+		opacity: 1;
+	}
+	95%{
+		left: 1156px;
+		opacity: 1;
+	}
+	100%{
+		left: 1180px;
+		opacity: 0;
+	}
+}
+@keyframes cloueMove2{
+	0%{
+		left: 90px;
+		opacity: 0;
+	}
+	10%{
+		left: 138px;
+		opacity: 1;
+	}
+	95%{
+		left: 526px;
+		opacity: 1;
+	}
+	100%{
+		left: 550px;
+		opacity: 0;
+	}
+}
+@keyframes cloueMove3{
+	0%{
+		left: 260px;
+		opacity: 0;
+	}
+	10%{
+		left: 308px;
+		opacity: 1;
+	}
+	95%{
+		left: 626px;
+		opacity: 1;
+	}
+	100%{
+		left: 650px;
+		opacity: 0;
+	}
+}
+
+
+/*                    第5页云朵样式                                     */
+
+#cloud5-1 {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 0;
+    top: 320px;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    opacity: 0;
+    animation: cloueMove1 30s 1s infinite linear;
+}
+#cloud5-2 {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 0;
+    top: 245px;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    opacity: 0;
+    animation: cloueMove2 26s 1s infinite linear;
+}
+#cloud5-3 {
+    position: absolute;
+    width: 110px;
+    height: 36px;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    opacity: 0;
+    animation: cloueMove3 22s 1s infinite linear;
+}
+/*              图片的样式                        */
+#oul{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:670px;
+	right:0;
+	bottom:0;
+}
+#oul li{
+	width:320px;
+	height:294px;
+	transition:.8s;
+	transform-origin: 0 0 0;
+	z-index: 9;
+	margin:0 10px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#oul li img {
+	width: 280px;
+	border: 14px solid white;
+	z-index: 10;
+}
+.num1Ico1{
+	transform:translateX(180px) translateY(333px) rotate(-18deg) scale(1.3);
+}
+.num1Ico2{
+	transform:translateX(577px) translateY(136px) rotate(15deg) scale(1.3);
+}
+.num1Ico3{
+	transform:translateX(900px) translateY(215px) rotate(35deg) scale(1.3);
+}
+.num1Ico4{
+	transform:translateX(324px) translateY(383px) rotate(-14deg) scale(1.3);
+}
+.num1Ico5{
+	transform:translateX(297px) translateY(535px) rotate(-16deg) scale(1.3);
+}
+.num1Ico6{
+	transform:translateX(560px) translateY(470px) rotate(-16deg) scale(1.3);
+	z-index:1 !important;
+	
+}
+.num2Ico1{
+	transform:translateX(200px) translateY(0) scale(1);
+	z-index: 13;
+}
+.num2Ico2{
+	transform:translateX(530px) translateY(0) scale(1);
+	z-index: 13;
+}
+.num2Ico3{
+	transform:translateX(859px) translateY(0) scale(1);
+	z-index: 13;
+}
+.num2Ico4{
+	transform:translateX(200px) translateY(330px) scale(1);
+	z-index: 13;
+}
+.num2Ico5{
+	transform:translateX(530px) translateY(330px) scale(1);
+	z-index: 13;
+}
+.num2Ico6{
+	transform:translateX(859px) translateY(330px) scale(1);
+	z-index: 13;
+}
+.num3Ico1{
+	transform:translateX(420px) translateY(-100px) rotate(-20deg) scale(1);
+}
+.num3Ico2{
+	transform:translateX(440px) translateY(-150px) rotate(-30deg) scale(1);
+}
+.num3Ico3{
+	transform:translateX(400px) translateY(-129px) rotate(-30deg) scale(1);
+}
+.num3Ico4{
+	transform:translateX(425px) translateY(-145px) rotate(-45deg) scale(1);
+}
+.num3Ico5{
+	transform:translateX(452px) translateY(-135px) rotate(-35deg) scale(1);
+}
+.num3Ico6{
+	transform:translateX(432px) translateY(-150px) rotate(-28deg) scale(1);
+}
+
+.numIco{
+	transform:translateX(420px) translateY(326px) rotate(0deg) scale(1.6);
+}
+.letterblock {
+	transform-origin: bottom;
+}
+
+#letterMid {
+	width: 520px;
+    height: 353px;
+}
+#letterTop {
+	position: absolute;
+	top:-226px;
+	left:-1px;
+	z-index: 8;
+	transition: .4s;
+	transform-origin: bottom;
+/*	transition: 1s;*/
+}
+#letterBottom {
+	position: absolute;
+	top:-227px;
+	left:0;
+	transition: .5s;
+	transform-origin: bottom;
+	transform: rotateX(90deg);
+}
+.letterBack {
+	transform-origin: bottom;
+	transform: rotateX(90deg);
+}
+.letternone {
+	/*display: none;*/
+	transform-origin: bottom;
+	transform: rotateX(90deg);
+}
+.letterBottom_o {
+	display: block;
+	transform-origin: bottom;
+	transform: rotateX(180deg) !important;
+}
+
+
+
+#footer {
+	background: #0096d0;
+    position: relative;
+    padding: 40px 0 20px;
+    color: #FFF;
+    font: 15px/28px 'Vaud Display', Helvetica, sans-serif;
+    text-align: center;
+    height: 140px;
+    width: 100%;
+} 
+#footer .take {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+#footer .link {
+	margin-bottom: 15px;
+} 
+#footer .link  a {
+	margin: 0 5px;
+	color: #fff;
+}
+#footer ul {
+	width: 100%;
+}
+#footer ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+#footer ul li a {
+	display: block;
+    position: relative;
+    height: 46px;
+    width: 46px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#footer ul span {
+	width: 22px;
+	height: 22px;
+	display: block;
+}
+#imgB1 {
+	background: url(../imgs/sprite.png) no-repeat -345px 0;
+} 
+#imgB2{
+	background: url(../imgs/sprite.png) no-repeat -417px 0;
+} 
+#imgB3 {
+	background: url(../imgs/sprite.png) no-repeat -304px 0;
+} 
+#imgB1:hover {
+	background: url(../imgs/sprite.png) no-repeat -453px 0;
+}
+#imgB2:hover{
+	background: url(../imgs/sprite.png) no-repeat -382px 0;
+} 
+#imgB3:hover {
+	background: url(../imgs/sprite.png) no-repeat -491px 0;
+}  
+#footer a:hover {
+	color: red;
+}
+
+		</style>
+<!--		<link rel="stylesheet" href="./妙味JS实体班学员：吴晓伟作品_files/style.css" type="text/css">-->
+	</head>
+	<body>
+		<header class="header">
+			<a href="javascript:;" id="topL" style="color: rgb(255, 255, 255);">takeit</a>
+			<section id="list">
+				<span style="background-color: rgb(255, 255, 255);"></span>
+				<span style="background-color: rgb(255, 255, 255);"></span>
+				<span style="background-color: rgb(255, 255, 255);"></span>
+			<!--</section>-->
+			<!--<span>&equiv;</span>-->
+		</section></header>
+		<ul id="navList">
+			<li style="border: 2px solid rgb(255, 255, 255); background: rgb(255, 255, 255);"></li>
+			<li style="border: 2px solid rgb(255, 255, 255); background: transparent;"></li>
+			<li style="border: 2px solid rgb(255, 255, 255); background: transparent;"></li>
+			<li style="border: 2px solid rgb(255, 255, 255); background: transparent;"></li>
+			<li style="border: 2px solid rgb(255, 255, 255); background: transparent;"></li>
+			<li style="border: 2px solid rgb(255, 255, 255); background: transparent;"></li>
+		</ul>
+		<section id="wrap" style="top: 0px;">
+		<!--------------------------    第一页面开始	  ---------------------->	
+			<div class="div1 move" style="height: 861px; position: relative; width: 1920px;">
+				<section id="cont"></section>  <!--白色边框变化的部分-->
+				<section id="content1" class="content">
+					<h1>
+						<span>Your</span>
+						<span>prints</span>
+						<span>for</span>
+						<span>free</span>
+					</h1>
+					<h2 id="h2">Your best iPhone photos printed for free.</h2>
+					<a href="javascript:;" id="imgs">
+						<img src="./妙味JS实体班学员：吴晓伟作品_files/apple-store.png" alt="">
+					</a>
+				</section>
+			</div>
+			<!-----------------------    第二页面开始  ------------------------------>	
+			<div class="div2" style="height: 861px; position: relative; width: 1920px;">
+				<section id="content2" class="content">
+					<h3>Every month, 5 free prints</h3>
+					<h4>Select from your Albums or the photos sent by your friends on the app.</h4>
+				</section>
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/bg.png" alt="" id="buildings" style="bottom: -215px;">
+					<section id="iphoneB" style="z-index: 9; bottom: -530px;">	
+						<img src="./妙味JS实体班学员：吴晓伟作品_files/iphone-blue.png" alt="" id="iphoneBlue">
+					</section>
+				<section class="star"><span style="top:99px;left:1076px;&gt;&lt;/span&gt;&lt;span style=" top:84px;left:369px;=""></span><span style="top:29px;left:73px;&gt;&lt;/span&gt;&lt;span style=" top:72px;left:174px;=""></span><span style="top:83px;left:906px;&gt;&lt;/span&gt;&lt;span style=" top:99px;left:334px;=""></span><span style="top:46px;left:153px;&gt;&lt;/span&gt;&lt;span style=" top:92px;left:483px;=""></span><span style="top:11px;left:938px;&gt;&lt;/span&gt;&lt;span style=" top:34px;left:83px;=""></span><span style="top:77px;left:85px;&gt;&lt;/span&gt;&lt;span style=" top:95px;left:123px;=""></span><span style="top:99px;left:1052px;&gt;&lt;/span&gt;&lt;span style=" top:71px;left:151px;=""></span><span style="top:0px;left:609px;&gt;&lt;/span&gt;&lt;span style=" top:28px;left:114px;=""></span><span style="top:60px;left:302px;&gt;&lt;/span&gt;&lt;span style=" top:20px;left:519px;=""></span><span style="top:97px;left:428px;&gt;&lt;/span&gt;&lt;span style=" top:35px;left:738px;=""></span><span style="top:10px;left:891px;&gt;&lt;/span&gt;&lt;span style=" top:90px;left:747px;=""></span><span style="top:40px;left:1010px;&gt;&lt;/span&gt;&lt;span style=" top:36px;left:234px;=""></span><span style="top:36px;left:236px;&gt;&lt;/span&gt;&lt;span style=" top:32px;left:426px;=""></span><span style="top:3px;left:1117px;&gt;&lt;/span&gt;&lt;span style=" top:73px;left:799px;=""></span><span style="top:34px;left:937px;&gt;&lt;/span&gt;&lt;span style=" top:35px;left:971px;=""></span><span style="top:72px;left:214px;&gt;&lt;/span&gt;&lt;span style=" top:60px;left:728px;=""></span><span style="top:70px;left:238px;&gt;&lt;/span&gt;&lt;span style=" top:92px;left:473px;=""></span><span style="top:27px;left:211px;&gt;&lt;/span&gt;&lt;span style=" top:51px;left:327px;=""></span><span style="top:71px;left:46px;&gt;&lt;/span&gt;&lt;span style=" top:86px;left:60px;=""></span><span style="top:12px;left:694px;&gt;&lt;/span&gt;&lt;span style=" top:2px;left:782px;=""></span><span style="top:11px;left:874px;&gt;&lt;/span&gt;&lt;span style=" top:61px;left:1047px;=""></span><span style="top:30px;left:435px;&gt;&lt;/span&gt;&lt;span style=" top:49px;left:342px;=""></span><span style="top:63px;left:1070px;&gt;&lt;/span&gt;&lt;span style=" top:97px;left:171px;=""></span><span style="top:60px;left:848px;&gt;&lt;/span&gt;&lt;span style=" top:36px;left:446px;=""></span><span style="top:60px;left:885px;&gt;&lt;/span&gt;&lt;span style=" top:22px;left:305px;=""></span><span style="top:29px;left:845px;&gt;&lt;/span&gt;&lt;span style=" top:48px;left:477px;=""></span><span style="top:23px;left:423px;&gt;&lt;/span&gt;&lt;span style=" top:57px;left:489px;=""></span><span style="top:38px;left:501px;&gt;&lt;/span&gt;&lt;span style=" top:70px;left:248px;=""></span><span style="top:56px;left:548px;&gt;&lt;/span&gt;&lt;span style=" top:3px;left:141px;=""></span><span style="top:33px;left:38px;&gt;&lt;/span&gt;&lt;span style=" top:0px;left:607px;=""></span></section>
+			</div>
+			<!-----------------------    第三页面开始  ------------------------------>	
+			<div class="div3" style="height: 861px; position: relative; width: 1920px;">
+				<section id="call" style="height: 0px;">
+					<div class="call-content">
+						<h3>We print your photos in a professional lab</h3>
+						<h4>Take it prints are 3.55 x 3.95". They’ll remind you the timeless Polaroid prints. Your message is printed at the back of your prints.</h4>
+					</div>
+				</section>
+			</div>
+			<!-----------------------    第四页面开始  ------------------------------>	
+			<div class="div4" style="height: 861px; position: relative; width: 1920px;">
+				<section id="content4">
+					<h3>Shipping all around the world</h3>
+					<h4>We deliver you prints worldwide. If you live in France (lucky you), the shipping is free! Only $2.99 for the rest of the world.</h4>
+				</section>
+				<section id="land" style="height: 0px;"></section>
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/bg1.png" alt="" id="build4" style="bottom: -150px;">
+					<div id="zhezhao1" style="height: 0px;"></div>
+					<div id="zhezhao2" style="height: 0px;"></div>
+					<div id="zhezhao3" style="height: 0px;"></div>
+					<div id="zhezhao4" style="height: 0px;"></div>
+					<div id="zhezhao5" style="height: 0px;"></div>
+				<section id="tree1" style="bottom: 40px;">
+					<section id="tree2"></section>
+				</section>
+				<section id="tree3" style="bottom: 60px;">
+					<section id="tree4"></section>
+				</section>
+				<section id="tree5" style="bottom: 26px;">
+					<section id="tree6"></section>
+				</section>
+				<section id="tree7" style="bottom: 60px;">
+					<section id="tree8"></section>
+				</section>
+				<section id="tree9" style="bottom: 50px;">
+					<section id="tree10"></section>
+				</section>
+				<section id="car" style="right: 138px; opacity: 10;"></section>
+				<section id="letter" style="bottom: -10px;">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/letter-front.png" alt="" id="letterMid">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/letter-top-inside.png" alt="" id="letterTop" class="letternone">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/letter-top-outside.png" alt="" id="letterBottom" class="letterBottom_o">
+				</section>
+				
+				<!--             云朵                       -->
+				<section id="cloud1">
+			        <div class="cloud1-1"></div>
+			        <div class="cloud1-2"></div>
+			        <div class="cloud1-3"></div>
+			    </section>
+				<section id="cloud2">
+			        <div class="cloud2-1"></div>
+			        <div class="cloud2-2"></div>
+			        <div class="cloud2-3"></div>
+			    </section>
+			    <section id="cloud3">
+				        <div class="cloud3-1"></div>
+				        <div class="cloud3-2"></div>
+				        <div class="cloud3-3"></div>
+			    </section>
+			    
+			</div>
+			<!-----------------------    第五页面开始  ------------------------------>	
+			<div class="div5" style="height: 861px; position: relative; width: 1920px;">
+			<section class="content5">
+				<h3>Win more prints!</h3>
+				<h4>Enter the game! Share your best photos with your friends on the app. The more popular they are, the more prints you win!</h4>
+			</section>
+			<section id="iphoneR">	
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/iphone-red.png" alt="" id="iphoneRed">
+				</section>
+				<img src="./妙味JS实体班学员：吴晓伟作品_files/caodi.png" alt="" id="caodi" style="bottom: -60px;">
+				<img src="./妙味JS实体班学员：吴晓伟作品_files/bg2.png" alt="" id="buildCloud" style="bottom: -200px;">
+				<section id="tree5-1" style="bottom: -55px;">
+					<section id="tree5-2"></section>
+				</section>
+				<section id="tree5-3" style="bottom: -40px;">
+					<section id="tree5-4"></section>
+				</section>
+				<section id="tree5-5" style="bottom: -80px;">
+					<section id="tree5-6"></section>
+				</section>
+				<section id="tree5-7" style="bottom: -90px;">
+					<section id="tree5-8"></section>
+				</section>
+				<section id="tree5-9" style="bottom: -70px;">
+					<section id="tree5-10"></section>
+				</section>
+				<section id="house" style="bottom: -92px;"></section>
+				<section id="pork" style="bottom: -65px;"></section>
+				
+				<!--             云朵                       -->
+			<section id="cloud5-1">
+		        <div class="cloud1-1"></div>
+		        <div class="cloud1-2"></div>
+		        <div class="cloud1-3"></div>
+		    </section>
+		    <section id="cloud5-2">
+		        <div class="cloud2-1"></div>
+		        <div class="cloud2-2"></div>
+		        <div class="cloud2-3"></div>
+		    </section>
+		    <section id="cloud5-3">
+		        <div class="cloud3-1"></div>
+		        <div class="cloud3-2"></div>
+		        <div class="cloud3-3"></div>
+		    </section>
+		</div>
+		
+		<!--                最后一部分                    -->
+			<footer id="footer">
+			<p class="take">© 2015 take it.</p>
+			<p class="link">
+				<a href="javascript:;">Contact Us</a>|<a href="javascript:;">Terms&nbsp;&amp;&nbsp;Conditions</a>
+			</p>
+			<ul>
+				<li>
+					<a href="javascript:;">
+						<span id="imgB1"></span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span id="imgB2"></span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span id="imgB3"></span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<ul id="oul" style="transition: 1s; top: 905px;">
+				<li class="num2Ico1">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/1.jpg" alt="">
+				</li>
+				<li class="num2Ico2">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/2.jpg" alt="">
+				</li>
+				<li class="num2Ico3">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/3.jpg" alt="">
+				</li>
+				<li class="num2Ico4">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/4.jpg" alt="">
+				</li>
+				<li class="num2Ico5">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/5.jpg" alt="">
+				</li>
+				<li class="num2Ico6">
+					<img src="./妙味JS实体班学员：吴晓伟作品_files/6.jpg" alt="">
+				</li>
+		</ul>
+		</section>
+		
+		
+		<script type="text/javascript" src="./妙味JS实体班学员：吴晓伟作品_files/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="./妙味JS实体班学员：吴晓伟作品_files/startMove.js"></script>
+		<script type="text/javascript" src="./妙味JS实体班学员：吴晓伟作品_files/script.js"></script>
+	
+
+</body></html>
