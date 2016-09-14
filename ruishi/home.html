@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/text.css" /> -->
+		<title>睿士</title>
+		<style type="text/css">
+			* {margin: 0;padding: 0;}
+			.swiper-container {width: 100%;height: 100vh;}
+			.swiper-wrapper {width: 100%;height: 100vh;}
+			.swiper-slide{width: 100%;height: 100vh;background: yellow;position: relative;}
+			.swiper-slide img{width: 100%;}
+			#comb{width: 65%;height: 44vh;position: absolute;left: 17.5%;top: 2%;}
+			#comb img{height: 100%;}
+			#ditan{width: 100%;height: 35%;position: absolute;left: 0;top: 25%;}
+			#ditan img{height: 100%;}
+			#blackbg{width: 100%;height: 100vh;position: absolute;top: -5%;}
+			#blackbg img{height: 100%;}
+			/*滑动箭头*/
+			.jiantou{width: 14%;height: 3%;position: absolute;bottom: 3%;left: 43%;z-index: 10;animation:jiantou 1s linear infinite;}
+			@keyframes jiantou {0%{transform:scale(1) translateY(0);}100%{transform:scale(0.6) translateY(-6vh);}}
+			.music{width: 8%;position: absolute;left: 5%;top: 3%;z-index: 10;}
+			#l1 {width: 50%;height: 10vh;position: absolute;top: 40vh;left: -50%;animation: flashL1 2s linear 1s infinite}
+			@keyframes flashL1 {0%{transform: translateX(0) translateY(0);}100%{transform: translateX(1000px) translateY(300px);}}
+			#l2 {width: 50%;height: 10vh;position: absolute;top: 40vh;right: -50%;animation: flashL2 2s linear 0.5s infinite}
+			@keyframes flashL2 {0%{transform: translateX(0) translateY(0);}100%{transform: translateX(-1200px) translateY(-400px);}}
+			#l3 {width: 50%;height: 10vh;position: absolute;top: 45vh;right: -50%;animation: flashL3 2s linear infinite}
+			@keyframes flashL3 {0%{transform: translateX(0) translateY(0);}100%{transform: translateX(-1000px) translateY(400px);}}
+			#welcom{width: 100%;height: 8%;font-size: 45px;line-height: 1;color: black;position: absolute;top: 51%;text-align: center;text-shadow:#ccc 5px 5px 5px;font-style: italic;font-weight: bolder;}
+			#w2014{width: 100%;height: 5vh;text-align: center;position: absolute;left: 0;top: 63%;background: orange;font-size: 20px;color: white;z-index: 10;line-height: 5vh;}
+			#show{width: 80%;/*height: 17vh;*/background: black;position: absolute;left: 7.5%;top: 71%;font-size: 15px;color: white;padding: 2.5%;border-radius: 10px;line-height: 1.2;}
+			#upfz{width: 100%;font-size: 10px;color: black;position: absolute;bottom: 0.2%;left: 0;text-align: center;}
+		</style>
+	</head>
+
+	<body>
+		<audio src="Shiftone_0.74.mp3" id="audio" autoplay="autoplay" loop="loop"></audio>
+		<!-- 总框架 -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			<!-- 第一页 -->
+				<div class="swiper-slide">
+					<div id="blackbg"><img src="img/pass1/bg1bg.png"></div>
+					<div id="ditan" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s"><img src="img/pass1/ditan.png" alt=""></div>
+					<div id="comb" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s"><img src="img/pass1/comb.png"></div>
+					<p id="welcom" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">青春怎么葆?</p>
+					<p id="w2014">2016《&nbsp;ELLEMENT&nbsp;》理容大奖</p>
+					<div id="show">在这个以白为美的年代，黑李逵已经不再流行了，想知道那些韩剧中的花样美男们的好肤色是怎么来的吗?太阳伞不是女生的专利，男生也是可以用的，如果真的不好意思的话，可以戴上墨镜和帽子，毕竟美白是自己的事情。</div>
+					<img src="img/pass1/l1.png" id="l1" />
+					<img src="img/pass1/l2.png" id="l2" />
+					<img src="img/pass1/l3.png" id="l3" />
+					<p id="upfz">为你打开</p>
+				</div>
+			<!-- 第二页 -->
+				<div class="swiper-slide">
+					<!-- 点击开始 -->
+					<div id="hand"><img src="img/pass2/hand2.png" id="hand2">&nbsp;点击按钮了解更多</div>
+					<!-- 透明背景 -->
+					<div class="opacitybg1"></div>
+
+					<!-- 三个化妆品 -->
+
+					<!-- Chanel介绍 -->
+					<img src="img/pass2/chanel4.png" id="chanel4" class="animated fadeIn">
+					<img src="img/pass2/jiahao.png" id="jh1" class="animated fadeIn infinite" >
+					<div id="chanel1">
+						<img src="img/pass2/yellowbar.png" id="yb1" class="animated fadeInDown">
+						<img src="img/pass2/chanel2.png" id="cha1">
+						<div id="cha3"  class="animated fadeInDown"><img src="img/pass2/chanel1.png"></div>
+					</div>
+					<img src="img/pass2/chanel3.png" id="cha2">
+
+					<!-- dior介绍 -->
+					<img src="img/pass2/dior4.png" id="dior4" class="animated fadeIn">
+					<img src="img/pass2/jiahao.png" id="jh2" class="animated fadeIn infinite">
+					<div id="dior1">
+						<img src="img/pass2/yellowbar2.png" id="yb2" class="animated fadeInLeft">
+						<img src="img/pass2/dior1.png" id="di1">
+						<div id="di2" class="animated fadeInLeft"><img src="img/pass2/dior3.png"></div>
+					</div>
+					<!-- 黑色字 -->
+					<img src="img/pass2/dior2.png" id="di3">
+
+					<!-- lamer介绍 -->
+					<img src="img/pass2/lamer4.png" id="lamer4" class="animated fadeIn">
+					<img src="img/pass2/jiahao.png" id="jh3" class="animated fadeIn infinite">
+					<div id="lamer1">
+						<img src="img/pass2/yellowbar2.png" id="yb3" class="animated fadeInLeft">
+						<img src="img/pass2/lamer2.png" id="la1">
+						<div id="la3" class="animated fadeInLeft"><img src="img/pass2/lamer3.png"></div>
+					</div>
+					<img src="img/pass2/lamer1.png" id="la2">
+					<input type="button" name="" value="跳转" id="btn1">
+				</div>
+
+
+			<!-- 第三页 -->
+				<div class="swiper-slide">
+					<img src="img/pass3/bird.png" id="bird" class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.9s" swiper-animate-delay="0.2s" >
+					<div class="opacitybg2"></div>
+					<!-- lancom介绍 -->
+					<img src="img/pass3/lancom4.png" id="lan1" class="animated fadeIn">
+					<img src="img/pass2/jiahao.png" id="jh4" class="animated fadeIn infinite">
+					<div id="lancom1">
+						<img src="img/pass2/yellowbar2.png" id="yb4" class="animated fadeInLeft">
+						<img src="img/pass3/lancom2.png" id="lan2b">
+						<div id="lan4" class="animated fadeInLeft"><img src="img/pass3/lancom3.png"></div>
+					</div>
+					<img src="img/pass3/lancom1.png" id="lan3">
+					<!-- lauder介绍 -->
+					<img src="img/pass3/lauder4.png" id="lau1" class="animated fadeIn">
+					<img src="img/pass2/jiahao.png" id="jh5" class="animated fadeIn infinite">
+					<div id="lauder1">
+						<img src="img/pass2/yellowbar3.png" id="yb5" class="animated fadeInRight">
+						<img src="img/pass3/lauder1.png" id="lau2b">
+						<div id="lau4" class="animated fadeInRight"><img src="img/pass3/lauder3.png"></div>
+					</div>
+					<img src="img/pass3/lauder2.png" id="lau3">
+					<!-- sisley介绍 -->
+					<img src="img/pass3/sisley4.png" id="sis1" class="animated fadeIn">
+					<img src="img/pass2/jiahao.png" id="jh6" class="animated fadeIn infinite">
+					<div id="sisley1">
+						<img src="img/pass2/yellowbar2.png" id="yb6" class="animated fadeInLeft">
+						<img src="img/pass3/sisley1.png" id="sis2b">
+						<div id="sis4" class="animated fadeInLeft"><img src="img/pass3/sisley3.png"></div>
+					</div>
+					<img src="img/pass3/sisley2.png" id="sis3">
+				</div>
+
+			<!-- 第四页 -->
+				<div class="swiper-slide">
+					<div class="opacitybg3"></div>
+					<img src="img/pass4/bgleft.png" id="bgl" class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+					<img src="img/pass4/bgright.png" id="bgr" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+					<!-- avene介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh7" class="animated fadeIn infinite">
+					<img src="img/pass4/avene3.png" id="av1" class="animated fadeIn">
+					<div id="avene1">
+						<img src="img/pass4/avene4.png" id="av2">
+						<img src="img/pass2/yellowbar2.png" id="yb7" class="animated fadeInLeft">
+						<div id="av4" class="animated fadeInLeft"><img src="img/pass4/avene2.png"></div>
+					</div>
+					<img src="img/pass4/avene1.png" id="av3">
+					<!-- orig介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh8" class="animated fadeIn infinite">
+					<img src="img/pass4/orig3.png" id="or1" class="animated fadeIn">
+					<div id="orig1">
+						<img src="img/pass4/orig4.png" id="or2">
+						<img src="img/pass2/yellowbar3.png" id="yb8" class="animated fadeInRight">
+						<div id="or4" class="animated fadeInRight"><img src="img/pass4/orig2.png"></div>
+					</div>
+					<img src="img/pass4/orig1.png" id="or3">
+				</div>
+
+			<!-- 第五页 -->
+				<div class="swiper-slide">
+					<div class="opacitybg4"></div>
+					<img src="img/pass5/shan1.png" id="flash1" class="animated fadeIn infinite">
+						<!-- bioth介绍 -->
+						<img src="img/pass2/jiahao.png" id="jh9" class="animated fadeIn infinite">
+						<img src="img/pass5/bioth3.png" id="bio1" class="animated fadeIn">
+						<div id="bioth1">
+							<img src="img/pass2/yellowbar2.png" id="yb9" class="animated fadeInLeft">
+							<img src="img/pass5/bioth4.png" id="bio2">
+							<div id="bio3" class="animated fadeInLeft"><img src="img/pass5/bioth2.png"></div>
+						</div>
+						<img src="img/pass5/bioth1.png" id="bio4">
+						<!-- fresh介绍 -->
+						<img src="img/pass2/jiahao.png" id="jh10" class="animated fadeIn infinite">
+						<img src="img/pass5/fresh3.png" id="fre1" class="animated fadeIn">
+						<div id="fresh1">
+							<img src="img/pass2/yellowbar3.png" id="yb10" class="animated fadeInRight">
+							<img src="img/pass5/fresh4.png" id="fre2">
+							<div id="fre3" class="animated fadeInRight"><img src="img/pass5/fresh2.png"></div>
+						</div>
+						<img src="img/pass5/fresh.png" id="fre4">
+					</div>
+			<!-- 第六页 -->
+				<div class="swiper-slide">
+					<div class="opacitybg5"></div>
+					<img src="img/pass6/lbg.png" id="lbg" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+					<img src="img/pass6/rbg.png" id="rbg" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+					<!-- BOSS介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh11" class="animated fadeIn infinite">
+					<img src="img/pass6/boss4.png" class="bo1">
+					<div class="boss1">
+						<img src="img/pass6/boss1.png" class="bo2">
+						<img src="img/pass6/yellowbar4.png" id="yb11" class="animated fadeInUp">
+						<div id="bo3" class="animated fadeInUp"><img src="img/pass6/boss3.png"></div>
+					</div>
+					<img src="img/pass6/boss2.png" class="bo4">
+					<!-- kera介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh12" class="animated fadeIn infinite">
+					<img src="img/pass6/kera4.png" class="ke1">
+					<div class="kera1">
+						<img src="img/pass6/kera1.png" class="ke2">
+						<img src="img/pass2/yellowbar3.png" id="yb12" class="animated fadeInRight">
+						<div id="ke3" class="animated fadeInRight"><img src="img/pass6/kera3.png"></div>
+					</div>
+					<img src="img/pass6/kera2.png" class="ke4">
+					<!-- locc介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh13" class="animated fadeIn infinite">
+					<img src="img/pass6/locc4.png" class="lo1">
+					<div class="locc1">
+						<img src="img/pass6/locc1.png" class="lo2">
+						<img src="img/pass2/yellowbar.png" id="yb13" class="animated fadeInDown">
+						<div id="lo3" class="animated fadeInDown"><img src="img/pass6/locc3.png"></div>
+					</div>
+					<img src="img/pass6/locc2.png" class="lo4">
+				</div>
+
+			<!-- 第七页 -->
+				<div class="swiper-slide">
+					<div class="opacitybg6"></div>
+					<!-- Philips介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh14" class="animated fadeIn infinite">
+					<img src="img/pass7/phi4.png" id="ph1" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+					<div class="philips1">
+						<img src="img/pass7/phi1.png" class="ph2">
+						<img src="img/pass2/yellowbar3.png" class="yb14">
+						<div class="ph3"><img src="img/pass7/phi3.png"></div>
+					</div>
+					<img src="img/pass7/phi2.png" class="ph4">
+					<!-- clari介绍 -->
+					<img src="img/pass2/jiahao.png" id="jh15" class="animated fadeIn infinite">
+					<img src="img/pass7/cla4.png" id="cl1" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+					<div class="clari1">
+						<img src="img/pass7/cla1.png" class="cl2">
+						<img src="img/pass2/yellowbar2.png" class="yb15">
+						<div class="cl3"><img src="img/pass7/cla3.png"></div>
+					</div>
+					<img src="img/pass7/cla2.png" class="cl4">
+				</div>
+
+			<!-- 第八页 -->
+				<div class="swiper-slide">
+					<div class="opacitybg7"></div>
+					<div class="share">
+						<img src="img/pass7/share1.png" class="s2">
+						<img src="img/pass7/share2.png" class="s3">
+					</div>
+					<img src="img/pass7/share3.png" class="s1">
+					<input type="text" placeholder="ellemen_china" >
+					<div id="shareBtn" class="animated fadeIn infinite"><img src="img/pass7/sharebtn.png"></div>
+					<p>分享本文到你的朋友圈，并到“ELLEMEN睿士”官方微信留言告诉我们你最爱的单品，我们就可能把它送给你。当然，你得先搜索“ellemen——china”找到我们才行哦，别害羞，来聊聊吧！</p>
+					<p class="bot">design&nbsp;&&nbsp;ABURRON</p>
+				</div>
+
+			</div>
+		</div>
+		<!-- 音乐图标 -->
+		<!-- 翻页箭头 -->
+			<img src="img/pass1/slide.png" class="jiantou">
+			<img src="img/pass2/music.png" class="music animated rotateIn infinite">
+
+	</body>
+	<script src="js/swiper.min.js" ></script>
+	<script src="js/swiper.animate1.0.2.min.js" ></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/animateFn.js"></script>
+	<script src="js/pass1.js" ></script>
+	<script src="js/passbol.js" ></script>
+	<script type="text/javascript">
+		var timer=null;
+		var swiper = new Swiper('.swiper-container', {
+			effect:'coverflow',
+				//竖直滑动方向
+				direction: 'vertical',
+				onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+					// swiperAnimateCache(swiper); //隐藏动画元素
+					swiperAnimate(swiper); //初始化完成开始动画
+				},
+				onSlideChangeEnd: function(swiper) {
+					swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画(必须设置,不然动画在切换页面时运行不起来)
+				},
+				preloadImages:false,//默认为true，Swiper会强制加载所有图片
+				updateOnImagesReady : true,//当所有的内嵌图像（img标签）加载完成后Swiper会重新初始化。使用此选项需要先开启preloadImages: true
+			})
+		setMusic();//设置音乐播放暂停
+		flashHand();
+		$('#shareBtn').on('touchstart',function(){
+				$('.share').css('display','block');
+				$('#shareBtn').removeClass('fadeIn infinite');
+				$('.s2').addClass('animated fadeInUp infinite');
+				$('.s3').addClass('animated fadeInUp infinite');
+		})
+		//第二页第一次点击事件
+		$('#hand').on('touchstart',function(){
+			clearInterval(timer3);
+			$('#hand').css('display','none');
+			$('.opacitybg1').css('display','none');
+			$('#jh1').css('display','block');
+			$('#jh2').css('display','block');
+			$('#jh3').css('display','block');
+		})
+		//第二页
+		clickFn('#jh1','.opacitybg1','#jh2','#chanel1','#chanel4','#dior1','#lamer1','#jh3','#cha2','#la2','#di3')
+		clickFn('#jh2','.opacitybg1','#jh1','#dior1','#dior4','#chanel1','#lamer1','#jh3','#di3','#cha2','#la2')
+		clickFn('#jh3','.opacitybg1','#jh2','#lamer1','#lamer4','#chanel1','#dior1','#jh1','#la2','#cha2','#di3')
+		//第三页
+		clickFn('#jh4','.opacitybg2','#jh5','#lan1','#lancom1','#lauder1','#sisley1','#jh6','#lan3','#lau3','#sis3')
+		clickFn('#jh5','.opacitybg2','#jh4','#lau1','#lauder1','#lancom1','#sisley1','#jh6','#lau3','#lan3','#sis3')
+		clickFn('#jh6','.opacitybg2','#jh4','#sis1','#sisley1','#lancom1','#lauder1','#jh5','#sis3','#lan3','#lau3')
+		//第四页
+		clickFn('#jh7','.opacitybg3','#jh8','#av1','#avene1','#orig1','','','#av3','#or3')
+		clickFn('#jh8','.opacitybg3','#jh7','#or1','#orig1','#avene1','','','#or3','#av3')
+		//第五页
+		clickFn('#jh9','.opacitybg4','#jh10','#bio1','#bioth1','#fresh1','','','#bio4','#fre4')
+		clickFn('#jh10','.opacitybg4','#jh9','#fre1','#fresh1','#bioth1','','','#fre4','#bio4')
+		//第六页
+		clickFn('#jh11','.opacitybg5','#jh12','.bo1','.boss1','.kera1','.locc1','#jh13','.bo4','.ke4','.lo4')
+		clickFn('#jh12','.opacitybg5','#jh11','.ke1','.kera1','.boss1','.locc1','#jh13','.ke4','.bo4','.lo4')
+		clickFn('#jh13','.opacitybg5','#jh11','.lo1','.locc1','.boss1','.kera1','#jh12','.lo4','.bo4','.ke4')
+		//第七页
+		clickFn('#jh14','.opacitybg6','#jh15','#ph1','.philips1','.clari1','','','.ph4','.cl4')
+		clickFn('#jh15','.opacitybg6','#jh14','#cl1','.clari1','.philips1','','','.cl4','.ph4')
+	</script>
+
+</html>
